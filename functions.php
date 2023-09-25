@@ -11,6 +11,7 @@ require('database/Product.php');
 $products = new Product($db);
 
 $productInObj = $products->fetch_product();
+$productSpacial = $products->fetch_product();
 
 
 
