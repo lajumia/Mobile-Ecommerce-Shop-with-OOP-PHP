@@ -11,9 +11,9 @@
                   ?>
                   <div class="item py-2">
                     <div class="product font-rale">
-                      <a href="#"><img src="<?php echo $productInArr['item_image'];?>" alt="product1" class="img-fluid"></a>
+                      <a href="product.php?id=<?php echo $productInArr['item_id'];?>"><img src="<?php echo $productInArr['item_image'];?>" alt="product1" class="img-fluid"></a>
                       <div class="text-center">
-                        <h6><?php echo $productInArr['item_name'];?></h6>
+                        <h6><?php echo $productInArr['item_name'];?>---<?php echo $productInArr['item_id'];?></h6>
                         <div class="rating text-warning font-size-12">
                           <span><i class="fas fa-star"></i></span>
                           <span><i class="fas fa-star"></i></span>

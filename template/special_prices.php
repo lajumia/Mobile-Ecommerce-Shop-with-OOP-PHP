@@ -18,7 +18,7 @@
                 <div class="grid-item Apple border">
                  <div class="item py-2" style="width: 200px;">
                     <div class="product font-rale">
-                      <a href="#"><img src="<?php echo $specialPrice['item_image'];?>" alt="product1" class="img-fluid"></a>
+                      <a href="product.php?id=<?php echo $specialPrice['item_id'];?>"><img src="<?php echo $specialPrice['item_image'];?>" alt="product1" class="img-fluid"></a>
                       <div class="text-center">
                         <h6><?php echo $specialPrice['item_name'];?></h6>
                         <div class="rating text-warning font-size-12">

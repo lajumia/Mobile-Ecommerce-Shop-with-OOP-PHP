@@ -12,6 +12,7 @@ $products = new Product($db);
 
 $productInObj = $products->fetch_product();
 $productSpacial = $products->fetch_product();
+$productNew = $products->fetch_product();
 
 
 

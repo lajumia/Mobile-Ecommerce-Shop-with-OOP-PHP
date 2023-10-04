@@ -1,3 +1,6 @@
+</main>
+    <!-- !start #main-site -->
+
 <footer id="footer" class="bg-dark text-white py-5">
           <div class="container">
             <div class="row">
@@ -38,7 +41,7 @@
           </div>
         </footer>
         <div class="copyright text-center bg-dark text-white py-2">
-          <p class="font-rale font-size-14">&copy; Copyrights 2020. Desing By <a href="#" class="color-second">Daily Tuition</a></p>
+          <p class="font-rale font-size-14">&copy; Copyrights 2020. Developed By <a href="#" class="color-second">@developerlaju</a></p>
         </div>
     <!-- !start #footer -->
 

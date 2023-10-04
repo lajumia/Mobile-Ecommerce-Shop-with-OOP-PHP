@@ -32,5 +32,3 @@
               </div>
             </section>
             
-        </main>
-    <!-- !start #main-site -->
