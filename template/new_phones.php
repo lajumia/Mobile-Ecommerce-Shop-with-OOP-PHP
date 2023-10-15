@@ -25,7 +25,7 @@
                                     <div class="price py-2">
                                       <span><?php echo $productNewResult['item_price'];?></span>
                                     </div>
-                                    <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                                    <button type="submit" class="btn btn-warning font-size-12"><a href="template/__cart_query.php?id=<?php echo $productNewResult['item_id'];?>">Add to Cart</a></button>
                                   </div>
                                 </div>
                               </div>

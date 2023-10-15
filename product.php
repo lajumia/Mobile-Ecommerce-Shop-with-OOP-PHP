@@ -25,7 +25,7 @@ $product_details = $product_query->fetch_assoc();
                         <button type="submit" class="btn btn-danger form-control">Proceed to Buy</button>
                     </div>
                     <div class="col">
-                        <button type="submit" class="btn btn-warning form-control">Add to Cart</button>
+                        <button type="submit" class="btn btn-warning form-control"><a href="template/__cart_query.php?id=<?php echo $product_details['item_id'];?>">Add to Cart</a></button>
                     </div>
                 </div>
             </div>
